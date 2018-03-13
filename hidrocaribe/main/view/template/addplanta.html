@@ -1,0 +1,61 @@
+<div class="window" ng-class="mtemwin" ng-controller="cplantas">
+    <div class="title">
+        <span>Agregar plantas de Agua</span>
+        <i class="fa fa-close" ng-click="close()"></i>
+    </div>
+    <span ng-show="form.pname.$touched && form.pname.$invalid" class="error" >Debe Ingresar el nombre la planta.</span>
+    <span ng-show="form.pdir.$touched && form.pdir.$invalid" class="error" >Debe Ingresar la dirección de la planta.</span>
+    <span ng-show="form.parada.$touched && form.parada.$invalid" class="error" >Debe Ingresar el estatus de la planta.</span>
+    <span ng-show="form.tipo.$touched && form.tipo.$invalid" class="error" >Debe Ingresar el tipo de planta.</span>
+    <div class="w-content" ng-control="cplantas">
+        <form name="form" >
+        	<div class="input">
+                    <label>Nombre de la planta</label>
+                    <input type="text" name="pname" placeholder="Ingrese el nombre de la planta" ng-model="planta.tx_nombre" required="required" autofocus>
+        	</div>
+        	<div class="input">
+                    <label>Dirección de la planta</label>
+                    <input type="text" name="pdir" placeholder="Ingrese la dirección de la planta" ng-model="planta.tx_direccion" required="required" >
+        	</div>
+        	<div class="input">
+                    <label>Estatus de la planta</label>
+                    <select ng-model="planta.en_tipo_parada" name="parada" required="required">
+                        <option value="OP">Operativa</option>
+                        <option value="NOP">No Operativa</option>
+                    </select>
+        	</div>
+        	<div class="input">
+                    <label>Tipo de planta</label>
+                    <select ng-model="planta.fk_tipo_planta" name="tipo" required="required" ng-init="get_tipoplanta()" 
+                        ng-options="item.id_tipo_planta as item.tx_descripcion group by item.en_tipo for item in ltplanta "    >
+                    </select>
+        	</div>
+        </form>
+        <div class="btn-gris">
+            <i class="fa fa-save"></i>
+            <i class="fa fa-trash"></i>
+        </div>
+        <div class="grid" style="height: 195px;" ng-init="listar_planta()" >
+            <span class="gris-title">Listado de plantas</span>
+            <div class="search">
+                <i class="fa fa-search"></i>
+                <input type="text" name="search" ng-model="search" placeholder="Escriba el nombre de la planta">
+            </div>
+            <div class="row">
+                <span>Planta</span>
+                <span>Tipo de planta</span>
+                <span>Estatus</span>
+            </div>
+            <ul style="height: 100px;">
+                <li ng-repeat="ls in lplanta">
+                    <div class="row">
+                        <span>{{ls.tx_nombre}}</span>
+                        <span>{{ls.tx_tipo_planta}}</span>
+                        <span>{{ls.en_tipo_parada_txt}}</span>
+                        <i class="fa fa-edit ibtn" ng-click="getrow(ls.id_planta)"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+<?php
+include("ayuda.php");
+
+$texto = '
+Requerimientos en el Servidor<br>
+<ul>
+<li>Sistema Operativo GNU/Linux Etch 4.0.</li>
+<li>PHP5 5.2.0-8+etch11.</li>
+<li>PostgreSQL 8.1.11-0etch1.</li>
+<li>PostgreSQL-client 8.1.11-0etch1.</li>
+<li>PHP5-pgsql 5.2.0-8+etch11.</li>
+<li>PHP5-gd 5.2.0-8+etch11.</li>
+<li>Apache2 2.2.3-4+etch4</li>
+</ul>
+<br>
+Requerimientos en el Cliente<br>
+<ul>
+<li>Sistema Operativo GNU/Linux (o cualquiera de sus sabores) o Microsoft Windows XP</li>
+<li>Iceweasel 2.0.0.10-0etch1 o Mozilla Firefox 2.0.0.14.</li>
+</ul>';
+
+$titulo = 'Requisitos de Hardware (mínimos)';
+ayuda($titulo,$texto);
+?>

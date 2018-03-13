@@ -1,0 +1,201 @@
+<!--
+.tituloDOSE_Principal {
+	font-family: Arial;
+	color:#000000;
+	font-size: 15px;
+}
+.tituloDOSE_1 {
+	font-family: Arial;
+	color:#000000;
+	font-size: 16px;
+}
+.tituloDOSE_2 {
+	font-family: Arial;
+	color:#000000;
+	font-size: 10px
+}
+.tituloDOSE_3 {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+}
+.tituloDOSE_4 {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+.tituloDOSE_5 {
+	font-family: Arial;
+	color:#4a5252;
+	font-size: 12px;
+	font-weight: bold;
+}
+.tituloDOSE_6 {
+	font-family: Arial;
+	color:#4a5252;
+	font-size: 11px
+}
+
+.estiloLetra_Select {
+	font-family: Arial;
+	color:#000000;
+	font-size: 10px;
+	text-align: left;
+	width: auto
+}
+
+.estiloLetra_Centrado {
+	font-family: Arial;
+	color:#000000;
+	font-size: 10px;
+	text-align: center
+}
+
+.estiloLetra_1 {
+	font-family: Arial;
+	color:#000000;
+	font-size: 10px;
+	text-align: right
+}
+.estiloLetra_4 {
+	font-family: Arial;
+	color:#FFFFFF;
+	font-size: 10px;
+	text-align: right
+}
+.estiloLetra_5 {
+	font-family: Arial;
+	color:#000000;
+	font-size: 12px;
+	text-align: left
+}
+.estiloLetra_Menu1{
+	font-family: Arial;
+	color:#67717e;
+	font-size: 10px;
+}
+.estiloLetra_ERROR {
+	font-family: Arial;
+	color:#ff0030;
+	font-size: 10px;
+	text-align: center
+}
+body {
+	margin-top: 50px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.redtitle {
+	color: #cc0000;
+	font-weight: bold;
+}
+.whitetitles {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.content {
+	font-family: Arial;
+	font-size: 10px;
+	color: #000000;
+}
+
+.buttons {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.buttons A:LINK {
+	color : #036;
+	text-decoration : none;
+	font-family: Arial;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+}
+.buttons A:VISITED {color : #036; text-decoration : none;}
+.buttons A:ACTIVE {color : #036; text-decoration : none;}
+.buttons A:HOVER {color : #036; text-decoration : underline;}
+
+a:link {
+	text-decoration: none;
+	color: #000099;
+}
+a:visited {
+	text-decoration: none;
+	color: #000099;
+}
+a:hover {
+	text-decoration: underline;
+	color: #000099;
+}
+a:active {
+	text-decoration: none;
+	color: #000099;
+}
+
+.stilelinkwhite{
+	color:#FFFFFF;
+	font-size: 10px;
+	font-weight: bold;
+
+}
+
+.stylelink{
+	color:#FFFFFF;
+	font-size: 13px;
+	font-weight: bold;
+
+}
+.style2{
+	color:#000000;
+	font-size: 13px;
+	font-weight: bold;
+
+}
+.errorMsg {
+	font-size: 11px;
+	font-family: Tahoma, Verdana, Arial;
+	color: Red;
+}
+
+.formatoFecha {
+	font-size: 9px;
+	font-family: Tahoma, Verdana, Arial;
+	color: Red;
+}
+
+
+.stylesalir {
+	font-size: 11px;
+	font-family: Tahoma, Verdana, Arial;
+	color:#67717e;
+	font-weight: bold;
+}
+.curriculumActivado {
+	font-size: 10px;
+	font-family: Tahoma, Verdana, Arial;
+	color:#000000;
+
+}
+
+.mensajeoculto{
+  display:none;
+}
+
+.mensajevisible{
+
+  display:block;
+
+}
+
+
+-->

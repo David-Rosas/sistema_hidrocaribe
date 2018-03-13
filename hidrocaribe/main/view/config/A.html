@@ -1,0 +1,15 @@
+<div class="solapa" ng-init="getlistado()">
+    <div class="title">
+        <span>{{title}}</span>
+    </div>
+    <div class="flex-container">
+        <div class="left">
+            <ul style="height: 99%;">
+                <li ng-repeat="lst in listado" ng-click="load_tem(lst.url)"><i class="{{lst.ico}}"></i>{{lst.txt}}</li>
+            </ul>
+        </div>
+        <div class="right" >
+            <div ng-include="solapa"></div>
+        </div>
+    </div>
+</div>
